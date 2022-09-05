@@ -14,8 +14,8 @@ We need a high-level Arch for the environment.
 Data is hosted in SQL server, for 27 k clients. we recommend mimicking streaming data by taking 20% as original data and the rest as streaming.
 
 ### File
-The AI forecasting water consumption solution based Arima univariate ML method. using Jupyter IDE. \n
-arima-univarient-solution.ipynb \n
+The AI forecasting water consumption solution based Arima univariate ML method. using Jupyter IDE.
+#arima-univarient-solution.ipynb 
 ### Data Sample 
 	ConsumptionDate	AccountOID	Consumption
 1	2022-04-01	3216049	0.0
