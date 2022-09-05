@@ -14,8 +14,8 @@ We need a high-level Arch for the environment.
 Data is hosted in SQL server, for 27 k clients. we recommend mimicking streaming data by taking 20% as original data and the rest as streaming.
 
 ### File
-The AI forecasting water consumption solution based Arima univariate ML method. using Jupyter IDE.
-arima-univarient-solution.ipynb
+The AI forecasting water consumption solution based Arima univariate ML method. using Jupyter IDE. \n
+arima-univarient-solution.ipynb \n
 ### Data Sample 
 	ConsumptionDate	AccountOID	Consumption
 1	2022-04-01	3216049	0.0
@@ -31,10 +31,10 @@ arima-univarient-solution.ipynb
 11	2022-04-01	3254985	0.578
 12	2022-04-01	3280547	0.558
 13	2022-04-01	3230389	0.523
-### Recommded Platfrom for ETL
-Kafka
-AirFlow
-MLFlow
+### Recommended Platform for ETL
+Kafka. \n
+AirFlow. \n 
+MLFlow. \n
 ### Date Connection 
 
 to be included ......
