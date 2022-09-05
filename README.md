@@ -1,4 +1,4 @@
-# assignment
+# Avertra Data Engineer Assignment V1
 
 ### Description 
 Water utilities customers prefer prior plan their water bill by knowing the subsequent water consumption, as a feature utilities provide their customers, they can pick the next consumption period to receive the forecasted amount of water usage in the dashboard way of visualization. AI team provides a time-series solution based on the univariate ARIMA method for a multi-models AI case, by training forecasting model for each client (tagged by OID), model per client. The water utility data is coming in the following shape:  
