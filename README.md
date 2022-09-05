@@ -4,10 +4,10 @@
 Water utilities customers prefer prior plan their water bill by knowing the subsequent water consumption, as a feature utilities provide their customers, they can pick the next consumption period to receive the forecasted amount of water usage in the dashboard way of visualization. AI team provides a time-series solution based on the univariate ARIMA method for a multi-models AI case, by training forecasting model for each client (tagged by OID), model per client. The water utility data is coming in the following shape:  
 Daily updated, two attributes (date, and consumption) are feeding the database monthly by appending new OIDS and consumption.  
 Building a Multi-models solution for this case and serving it based ML toolkit for Kubernetes performs good, but keep it in shape that the concern, in term:  
-Time in fetching data.  
-Time in retraining model.  
-Time in evaluate model fed by new consumption data.   
-We are looking for a solution to automate extracting data from the feed and use it to update the ML model with relative performance metrics to put it up for use/reuse.    
+ - Time in fetching data.  
+ - Time in retraining model.  
+ - Time in evaluate model fed by new consumption data.   
+ - We are looking for a solution to automate extracting data from the feed and use it to update the ML model with relative performance metrics to put it up for use/reuse.    
 [Note: use your preferred Messaging platfrom and Scheduling platfrom to set up the environment]  
 We need a high-level Arch for the environment.  
 (Streaming simulation)  
