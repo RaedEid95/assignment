@@ -35,6 +35,6 @@ arima-univarient-solution.ipynb
 Kafka.   
 AirFlow.   
 MLFlow.   
-### Date Connection 
+### Database Connection
 
 to be included ......
