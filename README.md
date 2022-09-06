@@ -11,12 +11,13 @@ Building a Multi-models solution for this case and serving it based ML toolkit f
 [Note: use your preferred Messaging platfrom and Scheduling platfrom to set up the environment]  
 We need a high-level Arch for the environment.  
 (Streaming simulation)  
-Data is hosted in SQL server, for 27 k clients. we recommend mimicking streaming data by taking 20% as original data and the rest as streaming.   
+Data is hosted in SQL server, for 272 clients. we recommend mimicking streaming data by taking 20% as original data and the rest as streaming.   
 
 ### File 
 
 arima-univarient-solution.ipynb     
 The AI forecasting water consumption solution based Arima univariate ML method. using Jupyter IDE.  
+Replace datebase connection into reading csv file.
 ### Data Sample 
 	ConsumptionDate	AccountOID	Consumption
 1	2022-04-01	3216049	0.0  
@@ -36,12 +37,7 @@ The AI forecasting water consumption solution based Arima univariate ML method. 
 Kafka.   
 AirFlow.   
 MLFlow.   
-### Database Connection
+### Dataset
 
-to be included ......   
-     
-driver ODBC Driver 17 for SQL Server   
-server='******'    
-database='******'   
-uid='******'   
-pwd='******'  
+dataset.csv   
+CSV file for 272 client accounts with attribute OID, date and daily consumption, Data contains missed value in date and consumption.
